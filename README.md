@@ -1,5 +1,17 @@
 # Project 1: Academic Advisement and Faculty Management System
 
+## Instructions for this Assignment
+
+1. All Java files you create must go into the `src/project1` folder. Keep the `README.md` file in the project root.
+
+2. Some classes and files have been provided as starter code, while others have intentionally been left out. Using what you have learned in class, complete the project by adding the missing classes and implementing the required relationships and functionality.
+
+3. The starter code is intentionally incomplete. The provided classes are only part of the design; determine what additional classes, attributes, methods, and relationships are needed to create a complete application.
+
+4. Apply the object-oriented programming concepts covered in class, including encapsulation, constructors, inheritance, method overloading, method overriding, polymorphism, and arrays of objects.
+
+5. Do not use AI coding tools to complete this assignment. If you have difficulty, reach out to your Teaching Assistant or Professor for help.
+
 ## Project overview
 
 Develop a Java application that simulates university academic advising and faculty management activities.
@@ -50,37 +62,6 @@ The application must:
 ## System rule
 
 Faculty members must access only the students and academic information assigned to their advising responsibilities.
-
-## Starter project structure
-
-```text
-project-1/
-├── README.md
-└── src/
-    └── project1/
-        ├── AdvisingRecord.java
-        ├── FacultyMember.java
-        ├── Main.java
-        └── Student.java
-```
-
-`Main.java` is the console application entry point. The Java files use the `project1` package.
-
-## Starter classes
-
-- `Student`
-- `FacultyMember`
-- `AdvisingRecord`
-
-## Selected method prototypes
-
-```java
-void assignAdvisor(FacultyMember advisor);
-Student[] getAdvisees();
-void completeAdvisingForm(AdvisingRecord record);
-```
-
-These methods are abstract declarations only. Full business logic remains to be implemented.
 
 ## Shared assignment requirements
 
